@@ -1,0 +1,27 @@
+package com.example.zhijiexing.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Primary = Color(0xFF5B8CFF)
+val PrimaryDeep = Color(0xFF3F6FE8)
+val PrimarySoft = Color(0xFFEAF1FF)
+val Navy = Color(0xFF2F4A6D)
+val NavyDeep = Color(0xFF263F5D)
+val SecondaryGreen = Color(0xFF7ED957)
+val GreenDeep = Color(0xFF3FAE6A)
+val GreenSoft = Color(0xFFE9F8E3)
+val AccentPurple = Color(0xFFA78BFA)
+val PurpleSoft = Color(0xFFF1ECFF)
+val AccentOrange = Color(0xFFFFB347)
+val OrangeSoft = Color(0xFFFFF2DF)
+val Danger = Color(0xFFF06767)
+val DangerSoft = Color(0xFFFFECEC)
+val TextMain = Color(0xFF1F2937)
+val TextSub = Color(0xFF6B7A90)
+val TextHint = Color(0xFF9AA7B8)
+val Background = Color(0xFFF5F7FA)
+val SurfaceWhite = Color(0xFFFFFFFF)
+val Line = Color(0xFFE9EEF5)
+val SoftBlueBg = Color(0xFFF0F5FF)
+val ChartTrack = Color(0xFFEDF2FB)
+val Gold = Color(0xFFFFB84D)

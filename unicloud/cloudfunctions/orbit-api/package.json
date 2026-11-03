@@ -1,0 +1,15 @@
+{
+  "name": "orbit-api",
+  "version": "1.0.0",
+  "description": "Orbit REST backend exposed through uniCloud URL化",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 30
+  }
+}

@@ -1,0 +1,1687 @@
+{
+ "version": 1,
+ "papers": [
+  {
+   "paperId": "2107329877215092738",
+   "name": "HarmonyOS 应用开发者基础认证（模拟卷）",
+   "description": "HarmonyOS 应用开发者基础认证（模拟卷）",
+   "totalScore": 100,
+   "passScore": 60,
+   "duration": 60,
+   "tabSwitchLimit": 3,
+   "enableCertificate": true,
+   "certificateName": "HarmonyOS 应用开发者基础认证",
+   "categoryName": "HarmonyOS",
+   "levelName": "基础",
+   "sortOrder": 1,
+   "questions": [
+    {
+     "id": "2107329877278007298",
+     "type": "JUDGE",
+     "content": "订阅dataReceiverProgress响应事件是用来接收HTTP流式响应数据。",
+     "score": 2,
+     "options": [
+      {
+       "label": "A",
+       "content": "正确(True)"
+      },
+      {
+       "label": "B",
+       "content": "错误(False)"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329877408030722",
+     "type": "JUDGE",
+     "content": "关系型数据库(Relational Database，RDB)支持Worker线程。",
+     "score": 2,
+     "options": [
+      {
+       "label": "A",
+       "content": "正确(True)"
+      },
+      {
+       "label": "B",
+       "content": "错误(False)"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329877554831361",
+     "type": "JUDGE",
+     "content": "UIAbility组件多实例启动模式是默认的启动模式。",
+     "score": 2,
+     "options": [
+      {
+       "label": "A",
+       "content": "正确(True)"
+      },
+      {
+       "label": "B",
+       "content": "错误(False)"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329877693243394",
+     "type": "JUDGE",
+     "content": "ArkTS中使用const声明常量。",
+     "score": 2,
+     "options": [
+      {
+       "label": "A",
+       "content": "正确(True)"
+      },
+      {
+       "label": "B",
+       "content": "错误(False)"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329877890375682",
+     "type": "JUDGE",
+     "content": "用户首选项是关系型数据库。",
+     "score": 2,
+     "options": [
+      {
+       "label": "A",
+       "content": "正确(True)"
+      },
+      {
+       "label": "B",
+       "content": "错误(False)"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329878012010498",
+     "type": "SINGLE",
+     "content": "以下有关自定义组件@Componenty2描述正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "@Prop能在@ComponentV2声明"
+      },
+      {
+       "label": "B",
+       "content": "@Param能在@Componentv2 中声明"
+      },
+      {
+       "label": "C",
+       "content": "@State能在@Componentv2声明"
+      },
+      {
+       "label": "D",
+       "content": "@Link能在@Componentv2 声明"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329878213337090",
+     "type": "SINGLE",
+     "content": "在Web应用中，前端页面与应用侧建立数据通道后，如何正确接收应用侧发送的消息?",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "在前端页面代码中调用onMessageEvent方法接收应用侧发送的消息"
+      },
+      {
+       "label": "B",
+       "content": "在前端页面代码中调用createWebMessagePorts方法接收应用侧发送的消息"
+      },
+      {
+       "label": "C",
+       "content": "在前端页面代码中调用postMessageEvent方法接收消息"
+      },
+      {
+       "label": "D",
+       "content": "在前端页面代码中通过端口的onmessage事件接收消息"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329878406275074",
+     "type": "SINGLE",
+     "content": "在HarmonyOS开发过程中，Promise提供了一种状态机制来管理异步操作的不同阶段，当Promise对象创建后处于哪种状态?",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "fulfilled"
+      },
+      {
+       "label": "B",
+       "content": "rejected"
+      },
+      {
+       "label": "C",
+       "content": "alive"
+      },
+      {
+       "label": "D",
+       "content": "pending"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329878607601666",
+     "type": "SINGLE",
+     "content": "关于子组件Child中@Require的使用限制，下列选项正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "父组件Parent在构造Child时必须传参，否则编译不通过"
+      },
+      {
+       "label": "B",
+       "content": "@Require支持在PreviewChecker检测规则中灵活跳过校验"
+      },
+      {
+       "label": "C",
+       "content": "@Require不适用于装饰普通变量"
+      },
+      {
+       "label": "D",
+       "content": "@Require可以装饰自定义组件内定义的@Link变量"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329878863454209",
+     "type": "SINGLE",
+     "content": "以下对于Progress的设置中可以实现，环形有刻度进度条宽度15，总刻度数为20，刻度宽度为5vp的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "PlainText"
+      },
+      {
+       "label": "B",
+       "content": "PlainText"
+      },
+      {
+       "label": "C",
+       "content": "PlainText"
+      },
+      {
+       "label": "D",
+       "content": "PlainText"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329879127695362",
+     "type": "SINGLE",
+     "content": "以下关于ArkUI触控事件的描述，错误的是？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "hitTestBehavior可以由InterceptTouch事件进行变更。"
+      },
+      {
+       "label": "B",
+       "content": "ArkUI触控事件，根据输入源不同，主要划分为touch类与mouse类。"
+      },
+      {
+       "label": "C",
+       "content": "TouchTest为触摸测试入口方法，触摸热区/禁用控制等不满足组件事件交互诉求，会导致立即返回父节点。"
+      },
+      {
+       "label": "D",
+       "content": "使用hitTestBehavior设置组件的触摸测试类型，当HitTestMode为Default时， 自身如果命中会阻塞兄弟"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329879459045378",
+     "type": "SINGLE",
+     "content": "张工正在使用DevEcoStudio进行一个复杂项目的开发工作，项目中包含了成千上万行代码且涉及众多模块。在重构代码的过程中，他意识到需要对一个核心类名进行更改，考虑到这个类在整个项目中被广泛引用，手动修改不仅耗时且容易出错。基于DevEcoStudio提供的代码编辑功能，以下哪个描述最准确地概述了张工如何高效且安全地完成对类名的更改，同时确保整个项目中所有相关引用同步更新？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "张工选中需要更名的类名，使用快捷键Shift+F6或右键菜单Refactor->Rename，在弹出框中输入新名称并"
+      },
+      {
+       "label": "B",
+       "content": "张工只需简单选中需要更名的类名，按下Delete键删除后直接输入新名称，DevEcoStudio会自动识别并更"
+      },
+      {
+       "label": "C",
+       "content": "张工需打开项目搜索功能，输入旧类名找到所有匹配项，逐一进行替换，完成更名操作"
+      },
+      {
+       "label": "D",
+       "content": "张工在代码编辑器中右键点击该类名，选择“Find Usage”，手动浏览所有引用位置并逐一修改为新名称"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329879836532738",
+     "type": "SINGLE",
+     "content": "开发者小张开发的项目希望可以增加一个卡片， 用于呈现在设备桌面上， 将应用的关键信息展示出来， 在开发服务卡片时， 以下说法正确的是？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "静态卡片内存占用较大，可实现静态信息展示、刷新和点击跳转"
+      },
+      {
+       "label": "B",
+       "content": "卡片的具体配置信息通常定义在resources/base/profile/目录下的form_config.json"
+      },
+      {
+       "label": "C",
+       "content": "动态卡片支持自定义交互、动效、滑动等功能，功能丰富且内存占用较小"
+      },
+      {
+       "label": "D",
+       "content": "．配置上动态卡片与静态卡片的差别在于isDynamic参数。当isDynamic置空时，该卡片为静态卡片"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329880092385281",
+     "type": "SINGLE",
+     "content": "在使用DevEcoStudio的Profiler进行HarmonyOS应用或服务内存管理优化时，以下哪个描述最准确地概述了“Allocation Insight\"功能在识别和解决内存问题中的作用",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "AllocationInsight主要关注于内存碎片整理，减少内存分配的不连续性问题，对内存泄漏和溢出问题的检"
+      },
+      {
+       "label": "B",
+       "content": "AllocationInsight仅提供内存分配总量的概览，帮助开发者宏观了解内存使用趋势，但对于具体泄漏或抖"
+      },
+      {
+       "label": "C",
+       "content": "AAllocationInsight通过分析应用服务运行时的内存分配及使用情况，辅助定位内存泄漏、内存抖动和溢"
+      },
+      {
+       "label": "D",
+       "content": "AllocationInsight详细展示应用运行时的每条语句柄分配记录，便于开发者逐一检查内存使用，但不提供"
+      }
+     ],
+     "correctAnswer": "C",
+     "analysis": ""
+    },
+    {
+     "id": "2107329880356626434",
+     "type": "SINGLE",
+     "content": "集成态HSP需要使用标准化的OHMUrl格式，通过修改工程级的build-profilejson5的哪个配置项为true?",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "useNormalizedOHMUr"
+      },
+      {
+       "label": "B",
+       "content": "useNormalized"
+      },
+      {
+       "label": "C",
+       "content": "OHMUr"
+      },
+      {
+       "label": "D",
+       "content": "NormalizedOHMUr"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329880616673283",
+     "type": "SINGLE",
+     "content": "应用程序开发调试过程中，经常需要安装新应用进行调测，下面安装应用操作错误的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "bminstall-pohosapp.hap-r"
+      },
+      {
+       "label": "B",
+       "content": "hdcinstall-pohosapp.hap"
+      },
+      {
+       "label": "C",
+       "content": "bminstall-p/data/app/"
+      },
+      {
+       "label": "D",
+       "content": "bminstall-pohosapp.hap"
+      }
+     ],
+     "correctAnswer": "C",
+     "analysis": ""
+    },
+    {
+     "id": "2107329880889303043",
+     "type": "SINGLE",
+     "content": "在 UIAbity的以下生命周期中，哪个生命周期回调中能够访问到windowStage对象并获得当前窗口状态信息A UIAbility的onDestroyB.UIAbility的onBackgroundC.UIAbility的onCreateD.AbilityStage的onCreate答案： C（正确）",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "UIAbility的onDestroy"
+      },
+      {
+       "label": "B",
+       "content": "UIAbility的onBackground"
+      },
+      {
+       "label": "C",
+       "content": "UIAbility的onCreate"
+      },
+      {
+       "label": "D",
+       "content": "AbilityStage的onCreate"
+      }
+     ],
+     "correctAnswer": "C",
+     "analysis": ""
+    },
+    {
+     "id": "2107329881279373313",
+     "type": "SINGLE",
+     "content": "HAR（HarmonyArchive）是HarmonyOS提供的共享包，以下关于HAR的描述错误的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "HAR不支持使用page页面"
+      },
+      {
+       "label": "B",
+       "content": "HAR不支持在设备上单独安装/运行， 只能作为应用模块的依赖项被引用"
+      },
+      {
+       "label": "C",
+       "content": "HAR不支持引用AppScope 目录中的资源。在编译构建时，AppScope 中的内容不会打包到HAR 中， 因"
+      },
+      {
+       "label": "D",
+       "content": "HAR可以作为二方库和三方库提供给其他应用使用， 如果需要对代码资产进行保护时， 建议开启混淆能"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329881547808770",
+     "type": "SINGLE",
+     "content": "关于ArkU的ForEach和LazyForEach， 下列说法错误的是？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "ForEach和LazyForEach会根据定义的键值生成规则为数据源的每个数组项生成唯一键值， 并创建相应"
+      },
+      {
+       "label": "B",
+       "content": "长列表滚动场景， 优先使用ForEach"
+      },
+      {
+       "label": "C",
+       "content": "当在滚动容器中使用了LazyForEach， 框架会根据滚动容器可视区域按需创建组件， 当组件滑出可视"
+      },
+      {
+       "label": "D",
+       "content": "LazyForEach需要配合cachedCount和组件复用一起使用， 以达到性能的最优表现"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329881736552450",
+     "type": "SINGLE",
+     "content": "在wifi、蜂窝等多网络并存的场景下，使用什么接口可以指定该应用使用特定网络通路上网",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "connection.setAppHttpProxy"
+      },
+      {
+       "label": "B",
+       "content": "bindSocket"
+      },
+      {
+       "label": "C",
+       "content": "connection.getNetCapabilities"
+      },
+      {
+       "label": "D",
+       "content": "connection.setAppNet"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329881929490434",
+     "type": "MULTI",
+     "content": "以下关于@Builder装饰器的特性描述正确的有",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "私有@Builder方法只能在自定义组件内调用，不能跨组件使用"
+      },
+      {
+       "label": "B",
+       "content": "@Builder装饰的方法仅支持传入多个参数来触发动态渲染UI"
+      },
+      {
+       "label": "C",
+       "content": "@Builder装饰的全局方法可以在多个组件中复用"
+      },
+      {
+       "label": "D",
+       "content": "@Builder方法默认按值传递参数， 且状态变量的变化不会触发Ui刷新"
+      }
+     ],
+     "correctAnswer": "ACD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329882277617666",
+     "type": "MULTI",
+     "content": "下列哪些日志类型属于FaultLog",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "JsCrash"
+      },
+      {
+       "label": "B",
+       "content": "cppCrash"
+      },
+      {
+       "label": "C",
+       "content": "tsCrash"
+      },
+      {
+       "label": "D",
+       "content": "appFreeze"
+      }
+     ],
+     "correctAnswer": "ABD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329882529275906",
+     "type": "MULTI",
+     "content": "触发知识加工的要求",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "数据库建表语句中的表名与schema的tableName相同，列名与columnName相同"
+      },
+      {
+       "label": "B",
+       "content": "relationalStore开库参数配置中的name字段需要与schema中\"dbName”字段保持一致"
+      },
+      {
+       "label": "C",
+       "content": "enableSemanticlndex字段需要设置为true"
+      },
+      {
+       "label": "D",
+       "content": "需要申请网络权限ohos.permission.INTERNET"
+      }
+     ],
+     "correctAnswer": "ABC",
+     "analysis": ""
+    },
+    {
+     "id": "2107329882986455042",
+     "type": "MULTI",
+     "content": "下列哪些关于减小应用包大小的优化方法描述正确",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "对于应用中用户不常用的功能，可以通过按需分发的方式，减少用户初次下载的包大小"
+      },
+      {
+       "label": "B",
+       "content": "使用 ohpm 的override 机制或开启resolve_conflict 解决依赖冲突，减少依赖包导致的"
+      },
+      {
+       "label": "C",
+       "content": "对于含有so库的App工程，可以配置so库压缩选项，以减小应用包大小"
+      },
+      {
+       "label": "D",
+       "content": "可以使用HSP动态共享包在多个包(HAP、HSP)之间共享代码和资源，消除使用HAR静态共享"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329883238113281",
+     "type": "MULTI",
+     "content": "在ArkUI中，以下关于状态管理机制的描述正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "状态管理机制与用户交互无关"
+      },
+      {
+       "label": "B",
+       "content": "如果不使用状态变量，UI只能在初始化时渲染，后续将不会再刷新"
+      },
+      {
+       "label": "C",
+       "content": "自定义组件拥有变量，变量必须被装饰器装饰才可以成为状态变量，状态变量的改变会引起UI的渲"
+      },
+      {
+       "label": "D",
+       "content": "UI是程序状态的运行结果， 用户构建了一个UI模型， 其中应用的运行时的状态是参数"
+      }
+     ],
+     "correctAnswer": "BCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329883498160130",
+     "type": "MULTI",
+     "content": "在ArkTS中，有关下面这段代码描述正确的是PlainTextfunctionadd(left:number,right?: number): number {return left+ right}",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "ArkTS会自动为right参数提供默认值， 所以不会报错"
+      },
+      {
+       "label": "B",
+       "content": "代码不会报错，undefined会被自动转换为0"
+      },
+      {
+       "label": "C",
+       "content": "代码会编译报错，因为可选参数right可能为undefiend，ArkTS无法将undefined和umber类型相"
+      },
+      {
+       "label": "D",
+       "content": "由于right是可选的，可能为undefined， 因此在使用前必须检查其是否为空值"
+      }
+     ],
+     "correctAnswer": "CD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329883766595586",
+     "type": "MULTI",
+     "content": "Image组件如下加载方式哪些是正确的 (假设加载地址是有效的)",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "Image(\"https://www.example.com/xx.png\")"
+      },
+      {
+       "label": "B",
+       "content": "Image(newArrayBuffer(100)"
+      },
+      {
+       "label": "C",
+       "content": "Image($r(\"app.media.IMG_8809\")"
+      },
+      {
+       "label": "D",
+       "content": "Image(newAnimatedDrawableDescriptor(this.pixelmaps,[duration:2000,iterations:1))"
+      }
+     ],
+     "correctAnswer": "ACD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329884030836739",
+     "type": "MULTI",
+     "content": "下列关于@Builder自定义构建函数的说法正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "@Builder可以装饰自定义组件内的私有函数， 也可以装饰全局函数"
+      },
+      {
+       "label": "B",
+       "content": "允许在@Builder装饰的函数内部修改参数值"
+      },
+      {
+       "label": "C",
+       "content": "@Builder通过按值方式传递参数， 当传递的参数为状态变量时， 状态变量的改变会引起@Builder"
+      },
+      {
+       "label": "D",
+       "content": "@Builder通过按引用的方式传递参数， 当传递的参数为状态变量时，状态变量的改变会引起"
+      }
+     ],
+     "correctAnswer": "AC",
+     "analysis": ""
+    },
+    {
+     "id": "2107329884286689281",
+     "type": "MULTI",
+     "content": "HarmonyOS应用开发者小张，正在利用DevEcoStudio进行一款复杂应用的Ui界面调试。小张了解到ArkUI Inspector是DevEcoStudio内置的一项强大工具，能够显著提升Ui调试效率。基于ArkUI Inspector的特性描述，下列哪些描述是正确的",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "rkUI Inspector是DevEcoStudio内置的一项强大工具，能够显著提升Ui调试效率。基于ArkUI Inspector"
+      },
+      {
+       "label": "B",
+       "content": "性能监控：提供详细的 UI渲染性能指标， 帮助开发者识别布局瓶颈和渲染效率问题， 从而优"
+      },
+      {
+       "label": "C",
+       "content": "UI快照管理： 支持导出应用的UI界面为快照图片， 并允许这些快照被导入回ArkUIInspector中，"
+      },
+      {
+       "label": "D",
+       "content": "UI效果查看： 开发者能够查看连接真机上运行的应用程序的UI显示效果， 页面组件树结构，"
+      }
+     ],
+     "correctAnswer": "ACD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329884488015874",
+     "type": "MULTI",
+     "content": "关于Navigation组件的路由操作和生命周期，以下哪些说法是正确的？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "可通过uiObserver.on(‘navDestinationUpdate’)监听页面状态变化"
+      },
+      {
+       "label": "B",
+       "content": "pushPathByName()可传递参数到目标界面"
+      },
+      {
+       "label": "C",
+       "content": "onWillAppear生命周期在页面挂载到组件树后触发"
+      },
+      {
+       "label": "D",
+       "content": "弹窗界面（DIALOG模式）不会影响下层界面的生命周期"
+      }
+     ],
+     "correctAnswer": "ABD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329884735479810",
+     "type": "MULTI",
+     "content": "以下哪些措施可以减少鸿蒙应用的耗时操作",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "避免高频回调执行耗时操作"
+      },
+      {
+       "label": "B",
+       "content": "Web组件的预连接、预下载、预渲染"
+      },
+      {
+       "label": "C",
+       "content": "避免使用耗时接口"
+      },
+      {
+       "label": "D",
+       "content": "．避免主线程冗余操作"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329884932612098",
+     "type": "MULTI",
+     "content": "开发者小李正在使用DevEcoStudio开发一款面向HarmonyOS的应用， 该应用需要在多种设备上表现出一致的稳定性和优秀的用户体验。为了确保高质量的发布，小李意识到需要实施一套全面的测试策略， 覆盖代码的自动化测试和手动测试， 还需要衡量代码的测试覆盖率， 以确定测试的充分性。在DevEcoStudio的测试框架下，以下描述中， 哪些是正确的",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "InstrumentTest：测试用例存储于项目的ohosTest 目录， 要求在HarmonyOS设备或模拟器上执行"
+      },
+      {
+       "label": "B",
+       "content": "无论选择 InstrumentTest还是LocalTest， DevEcoStudio均内置了详尽的测试报告功能， 实时显"
+      },
+      {
+       "label": "C",
+       "content": "LocalTest：测试用例位于test 目录， 无需设备或模拟器环境， 直接在本地执行， 专注于ArkTS语"
+      },
+      {
+       "label": "D",
+       "content": "DevEcoStudio的测试框架提供测试用例执行能力， 包含基础接口以编写和输出测试结果， 鼓励"
+      }
+     ],
+     "correctAnswer": "ACD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329885708558338",
+     "type": "MULTI",
+     "content": "EventHub为UIAbility组件提供了事件机制， 使它们能够进行以下哪些数据通信能力？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "广播事件"
+      },
+      {
+       "label": "B",
+       "content": "触发事件"
+      },
+      {
+       "label": "C",
+       "content": "订阅事件"
+      },
+      {
+       "label": "D",
+       "content": "取消订阅事件"
+      }
+     ],
+     "correctAnswer": "BCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329885972799490",
+     "type": "MULTI",
+     "content": "HSP支持导出ArkUI组件、接口， 供应用内的其他HAP/HSP 引用， 下面正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "导出类"
+      },
+      {
+       "label": "B",
+       "content": "导数TS方法"
+      },
+      {
+       "label": "C",
+       "content": "导出ArkUI组件"
+      },
+      {
+       "label": "D",
+       "content": "导出native方法， 在HSP 中也可以包含C++编写的so。对于so 中的native方法， HSP通过间接的"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329886463533058",
+     "type": "MULTI",
+     "content": "StoreKit的隐私管理对外提供的能力有",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "更改隐私签署状态"
+      },
+      {
+       "label": "B",
+       "content": "停止用户协议"
+      },
+      {
+       "label": "C",
+       "content": "查询隐私链接地址"
+      },
+      {
+       "label": "D",
+       "content": "查询隐私签署状态"
+      }
+     ],
+     "correctAnswer": "BCD",
+     "analysis": ""
+    }
+   ]
+  },
+  {
+   "paperId": "2107329886950072322",
+   "name": "HarmonyOS 应用开发者高级认证（模拟卷）",
+   "description": "HarmonyOS 应用开发者高级认证（模拟卷）",
+   "totalScore": 100,
+   "passScore": 80,
+   "duration": 60,
+   "tabSwitchLimit": 3,
+   "enableCertificate": true,
+   "certificateName": "HarmonyOS 应用开发者高级认证",
+   "categoryName": "HarmonyOS",
+   "levelName": "高级",
+   "sortOrder": 2,
+   "questions": [
+    {
+     "id": "2107329887017181186",
+     "type": "SINGLE",
+     "content": "在做音频播放器和视频播放器时，一般需一个播放器组件和一个xComponent组件作为渲染组件用于音视频的播放， 如果不设置surfacelD， 适用于哪种场景",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "视频播器"
+      },
+      {
+       "label": "B",
+       "content": "音频播"
+      },
+      {
+       "label": "C",
+       "content": "拍照"
+      },
+      {
+       "label": "D",
+       "content": "图片渲染"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329887214313474",
+     "type": "SINGLE",
+     "content": "调用getOAID需要申请什么权限",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "ohos.permission.APP_TRACKING"
+      },
+      {
+       "label": "B",
+       "content": "ohos.permission.APP_TRACKING_CONSENT"
+      },
+      {
+       "label": "C",
+       "content": "不需要权限"
+      },
+      {
+       "label": "D",
+       "content": "hmos.permission.APP_TRACKING_CONSENT"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329887415640066",
+     "type": "SINGLE",
+     "content": "单个实况窗的生命周期最长不超过（）小时， 超过（）小时后， 系统会认为实况窗结束。",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "10"
+      },
+      {
+       "label": "B",
+       "content": "6"
+      },
+      {
+       "label": "C",
+       "content": "8"
+      },
+      {
+       "label": "D",
+       "content": "4"
+      }
+     ],
+     "correctAnswer": "C",
+     "analysis": ""
+    },
+    {
+     "id": "2107329887600189442",
+     "type": "SINGLE",
+     "content": "应用退至后台后可以申请长时任务， 使应用在后台长时间运行。下列关于后台任务开发的说法错误的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "长时任务需要申请ohos.permission.KEEP_BACKGROUND_RUNNING权限"
+      },
+      {
+       "label": "B",
+       "content": "一个UIAbility 同一时刻支持申请不超过两个长时任务"
+      },
+      {
+       "label": "C",
+       "content": "长时任务支持跨设备或者跨应用申请"
+      },
+      {
+       "label": "D",
+       "content": "在Stage工程中，长时任务仅支持UIAbility申请"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329888388718594",
+     "type": "SINGLE",
+     "content": "Environment是ArkUI框架在应用程序启动时创建的单例对象， 提供了读取系统某些环境变量的能力。下面哪个属性为Environment 内置参数中字体大小比例",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "fontScale"
+      },
+      {
+       "label": "B",
+       "content": "fontWeightScale"
+      },
+      {
+       "label": "C",
+       "content": "colorMode"
+      },
+      {
+       "label": "D",
+       "content": "languageCode"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329888594239490",
+     "type": "SINGLE",
+     "content": "关于AnimatableArithmetic接口， 下列说法正确的是A实现该接口的数据类型不能参与动画插值运算B.实现该接口的数据类型必须为数组类型C.它仅支持对number类型的数据做动画D实现该接口需要定义加法、减法、乘法及判断相等等运算规则答案： D（正确）",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "实现该接口的数据类型不能参与动画插值运算"
+      },
+      {
+       "label": "B",
+       "content": "实现该接口的数据类型必须为数组类型"
+      },
+      {
+       "label": "C",
+       "content": "它仅支持对number类型的数据做动画"
+      },
+      {
+       "label": "D",
+       "content": "实现该接口需要定义加法、减法、乘法及判断相等等运算规则"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329888845897731",
+     "type": "SINGLE",
+     "content": "以下关于@Styles装饰器使用方式的描述错误的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "在@Styles方法内直接定义样式而未使用组件调用"
+      },
+      {
+       "label": "B",
+       "content": "B.在全局定义的@Styles方法中添加function关键字"
+      },
+      {
+       "label": "C",
+       "content": "C.在组件内@Styles方法中通过事件修改状态变量"
+      },
+      {
+       "label": "D",
+       "content": "在@Styles方法内使用逻辑组件"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329889177247745",
+     "type": "SINGLE",
+     "content": "以下关于组件内和全局@Styles装饰器的描述正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "@Styles方法在全局定义时不能使用this关键字"
+      },
+      {
+       "label": "B",
+       "content": "@Styles方法在组件内定义时必须添加function关键字"
+      },
+      {
+       "label": "C",
+       "content": "全局@Styles优先级高于组件内@Styles"
+      },
+      {
+       "label": "D",
+       "content": "框架会优先查找全局@Styles， 找不到时再查找组件内@Styles"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329889370185730",
+     "type": "SINGLE",
+     "content": ".在Column容器中， 哪个属性用于设置子元素在排列方向上的间距？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "padding"
+      },
+      {
+       "label": "B",
+       "content": "space"
+      },
+      {
+       "label": "C",
+       "content": "gap"
+      },
+      {
+       "label": "D",
+       "content": "margin"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329889634426882",
+     "type": "SINGLE",
+     "content": "Image组件如下属性中哪个属性是支持svg图源的？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "objectRepeat"
+      },
+      {
+       "label": "B",
+       "content": "colorFilter"
+      },
+      {
+       "label": "C",
+       "content": "renderMode"
+      },
+      {
+       "label": "D",
+       "content": "interpolatior"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329889823170563",
+     "type": "SINGLE",
+     "content": "当前您在开发一个ArkTS、Stage模型的 HarmonyOS工程， 关于当前ArkTS工程目录结构， 下列选项说法错误的是？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "entry>src> main> module.json5： Stage模型模块配置文件， 主要包含 HAP 的配置信息、应用在具体设"
+      },
+      {
+       "label": "B",
+       "content": "AppScope>app.json5：应用的全局配置信息。"
+      },
+      {
+       "label": "C",
+       "content": "oh-package.json5： 描述依赖配置， 如：依赖覆盖（overrides） 、依赖关系重写（overrideDependencyMap"
+      },
+      {
+       "label": "D",
+       "content": "build-profile.json5：应用级编译构建任务脚本。"
+      }
+     ],
+     "correctAnswer": "D",
+     "analysis": ""
+    },
+    {
+     "id": "2107329890154520579",
+     "type": "SINGLE",
+     "content": "项目需要为不同的设备形态（如手机、智能手表）提供定制化构建。请说明如何在DevEcoStudio 中设置不同的构建配置， 以生成针对不同设备的hap包？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "在工程级别build-profile.json5定义多个product， 在每个product 的config/deviceType 中定"
+      },
+      {
+       "label": "B",
+       "content": "在模块级别build-profile.json5定义多个target， 在每个target 的config/deviceType 中定"
+      },
+      {
+       "label": "C",
+       "content": "在工程级别build-profile.json5定义多个product， 在每个product 的config/distributionFilter"
+      },
+      {
+       "label": "D",
+       "content": "在模块级别build-profile.json5定义多个target， 在每个target 的config/distributionFilter"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329890347458562",
+     "type": "SINGLE",
+     "content": ".在HarmonyOS应用开发中， 当开发者遇到需要分析Release版本应用的崩溃或异常堆栈信息时， 为了准确地将堆栈追踪信息对应到源代码的具体位置， 以下哪个描述是正确 的做法或理解",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "开发者需手动将 Release构建生成的so文件与源代码进行映射， 配合第三方工具进行堆栈信息还原，"
+      },
+      {
+       "label": "B",
+       "content": "DevEcoStudio提供的 Release应用堆栈解析功能， 要求开发者在遇到问题时， 需上传构建产物中的特定"
+      },
+      {
+       "label": "C",
+       "content": "DevEcoStudio通过集成的Release应用堆栈解析功能， 自动利用构建时产生的so文件、sourcemap文件"
+      },
+      {
+       "label": "D",
+       "content": "因为Release应用经过优化和去除Debug信息， 直接从堆栈跟踪到源代码行号是不可能 的， 开发者只能"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329890754306049",
+     "type": "SINGLE",
+     "content": "项目需要同时进行应用和元服务的开发， 并针对当前项目工程中的代码可以分别构建出应用和元服务的包， 如何在DevEcoStudio 中设置不同的构建配置，达成这个目的",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "修改工程级别的AppScope/app.json5 中的bundleType值为app"
+      },
+      {
+       "label": "B",
+       "content": "在工程级别build-profile.json5定义两个product， 将两个product 的bundleType分别设置成app和"
+      },
+      {
+       "label": "C",
+       "content": "在模块级别build-profile.json5定义两个target， 将两个target 的bundleType分别设置成app和"
+      },
+      {
+       "label": "D",
+       "content": "修改工程级别的AppScope/app.json5 中的bundleType值为atomicService"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329890989187075",
+     "type": "SINGLE",
+     "content": "在编译构建HAP 时， 会从 HAP模块及依赖的模块中收集资源文件， 如果不同模块下的资源文件出现重名冲突时， 会按照优先级进行覆盖， 现在有一个HAP依赖了两个HAR， 依赖配置如下所示： 在资源覆盖时， 以下优先级排序正确的是 ()",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "AppScope>HAP包自身模块>dayjs模块>lottie模块"
+      },
+      {
+       "label": "B",
+       "content": "AppScope>HAP包自身模块>lottie模块>dayjs模块"
+      },
+      {
+       "label": "C",
+       "content": "HAP包自身模块>dayjs模块>lottie模块>AppScope"
+      },
+      {
+       "label": "D",
+       "content": "HAP包自身模块>lottie模块>dayjs模块>AppScope"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329891257622529",
+     "type": "SINGLE",
+     "content": "一个应用的功能比较复杂， 需要使用ExtensionAbility组件， 针对该应用的开发，下面说法错误的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "可以采用多 HAP（即一个entry包+多个feature包）来实现应用开发"
+      },
+      {
+       "label": "B",
+       "content": "ExtensionAbility使用独立的HAP实现， 可能会存在多个HAP 引I用相同的HAR，导致重复打包的问题，"
+      },
+      {
+       "label": "C",
+       "content": "根据二八原则， 非常用的功能， 封装成HSP，做成按需加载的模块"
+      },
+      {
+       "label": "D",
+       "content": "每个HAP 中包含一个UIAbility组件或者一个ExtensionAbility组件"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329891509280769",
+     "type": "SINGLE",
+     "content": "HAR是HarmonyOS提供的共享包， 以下关于HAR的描述错误的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "HAR不支持使用page页面"
+      },
+      {
+       "label": "B",
+       "content": "HAR不支持引用AppScope目录中的资源。在编译构建时，AppScope中的内容不会打包到HAR中，因此会导致"
+      },
+      {
+       "label": "C",
+       "content": "HAR不支持在设备上单独安装/运行， 只能作为应用模块的依赖项被引用"
+      },
+      {
+       "label": "D",
+       "content": "．HAR可以作为二方库和三方库提供给其他应用使用， 如果需要对代码资产进行保护时， 建议开启混淆"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329891702218753",
+     "type": "SINGLE",
+     "content": "hiAppEvent提供的Watcher接口， （）属性不配置， 会导致编译报错， 产生\"ArkTCompiler Error\".",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "onTrigger"
+      },
+      {
+       "label": "B",
+       "content": "name"
+      },
+      {
+       "label": "C",
+       "content": "onReceive"
+      },
+      {
+       "label": "D",
+       "content": "triggerCondition"
+      }
+     ],
+     "correctAnswer": "B",
+     "analysis": ""
+    },
+    {
+     "id": "2107329891832242179",
+     "type": "SINGLE",
+     "content": "我们需要避免在逐帧调用的接口中执行耗时操作， 下面哪个选项不属于上述的接口？",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "aboutToReuse"
+      },
+      {
+       "label": "B",
+       "content": "onTouch"
+      },
+      {
+       "label": "C",
+       "content": "onAreaChange"
+      },
+      {
+       "label": "D",
+       "content": "onScrol"
+      }
+     ],
+     "correctAnswer": "A",
+     "analysis": ""
+    },
+    {
+     "id": "2107329892155203586",
+     "type": "SINGLE",
+     "content": "下列关于ArkUI状态管理的描述正确的是",
+     "score": 3,
+     "options": [
+      {
+       "label": "A",
+       "content": "在声明式UI编程框架中，应用运行时状态参数改变， UI不一定会随之改变， 且UI渲染仅在初始化时进"
+      },
+      {
+       "label": "B",
+       "content": "在构建页面时， 动态有交互的界面引入“状态”概念后， 自定义组件的变量可直接引起"
+      },
+      {
+       "label": "C",
+       "content": "在ArkUI 中， 状态管理机制是指应用运行时状态变化带来的UI重新渲染， 且自定义组件变量经装饰器装饰"
+      },
+      {
+       "label": "D",
+       "content": "State是指将build方法内的UI描述和@Builder装饰的方法内的UI描述映射到界面，View（UI）是指"
+      }
+     ],
+     "correctAnswer": "C",
+     "analysis": ""
+    },
+    {
+     "id": "2107329892490747906",
+     "type": "MULTI",
+     "content": "如下sql语句: select* from t_book where t.price > 50 and t.publish_time>= '2024-01-0100:00:00'orderby t.pricedesc。实现相同功能需要用到的云数据库谓语句是",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "orderByDesc"
+      },
+      {
+       "label": "B",
+       "content": "where"
+      },
+      {
+       "label": "C",
+       "content": "isNotNull"
+      },
+      {
+       "label": "D",
+       "content": "limit"
+      }
+     ],
+     "correctAnswer": "AB",
+     "analysis": ""
+    },
+    {
+     "id": "2107329892692074498",
+     "type": "MULTI",
+     "content": "以下说法正确的有",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "Exif中的ORIENTATION字段表示图片旋转方向"
+      },
+      {
+       "label": "B",
+       "content": "调用 ImageSourgh的getlmagelnfo接口， 只解析文件头， 并没有解码图片码流。"
+      },
+      {
+       "label": "C",
+       "content": "使用lmagePacker编码可以指定压缩文件大小"
+      },
+      {
+       "label": "D",
+       "content": "使用lmageSource解码SVG 图片可以保留矢量图的优势"
+      }
+     ],
+     "correctAnswer": "AB",
+     "analysis": ""
+    },
+    {
+     "id": "2107329893006647298",
+     "type": "MULTI",
+     "content": "使用组件复用之后， 还是没有显著提升列表滑动场景的性能， 属于组件复用未生效可能的原因有？",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "复用的自定义组件中使用if等条件渲染语句导致结构不相同， 未使用reuseld标记"
+      },
+      {
+       "label": "B",
+       "content": "没有在aboutToReuse更新关联的状态变量数据"
+      },
+      {
+       "label": "C",
+       "content": "在aboutToReuse回调函数中更新了冗余的状态变量"
+      },
+      {
+       "label": "D",
+       "content": "页面嵌套了过多自定义组件"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329893203779585",
+     "type": "MULTI",
+     "content": "以下哪些方式可以实现ArkWeb同层渲染能力",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "PlainText"
+      },
+      {
+       "label": "B",
+       "content": "PlainText"
+      },
+      {
+       "label": "C",
+       "content": "PlainText"
+      },
+      {
+       "label": "D",
+       "content": "PlainText"
+      }
+     ],
+     "correctAnswer": "AC",
+     "analysis": ""
+    },
+    {
+     "id": "2107329893400911873",
+     "type": "MULTI",
+     "content": "文件基础服务的使用场景有以下哪些？",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "跨设备的文件访问和分享能力"
+      },
+      {
+       "label": "B",
+       "content": "选择与保存用户文件"
+      },
+      {
+       "label": "C",
+       "content": "应用文件访问和文件分享"
+      },
+      {
+       "label": "D",
+       "content": "应用数据备份恢复"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329893602238466",
+     "type": "MULTI",
+     "content": "以下有关滑动场景白块问题的说法正确的是A只要设置图片的syncload属性为true， 就可以彻底消除白块B 白块是由于图片异步下载/解码等产生的， 因此文字不会出现白块C将图片的url入参换成pixelmap入参， 可以彻底消除白块D.设置cachedcount到合适的值， 有助于减少白块答案：BCD（待校验）答案： BD（待校验）答案：ABD（待校验）",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "只要设置图片的syncload属性为true， 就可以彻底消除白块"
+      },
+      {
+       "label": "B",
+       "content": "白块是由于图片异步下载/解码等产生的， 因此文字不会出现白块"
+      },
+      {
+       "label": "C",
+       "content": "将图片的url入参换成pixelmap入参， 可以彻底消除白块"
+      },
+      {
+       "label": "D",
+       "content": "设置cachedcount到合适的值， 有助于减少白块"
+      }
+     ],
+     "correctAnswer": "ABD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329893866479617",
+     "type": "MULTI",
+     "content": "hiAppEvent 中可以订阅到的事件A卡死事件B.启动耗时事件C.资源泄漏事件D.CPU高负载事件E.24h功耗器件分解统计事件F.踩内存事件G.崩溃事件答案：ABCDEFG",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "卡死事件"
+      },
+      {
+       "label": "B",
+       "content": "启动耗时事件"
+      },
+      {
+       "label": "C",
+       "content": "资源泄漏事件"
+      },
+      {
+       "label": "D",
+       "content": "CPU高负载事件"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329894072000514",
+     "type": "MULTI",
+     "content": "状态管理V1存在的限制有",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "状态变量不能独立于UI存在， 同一个数据被多个视图代理时， 在其中一个视图的更改不会通知其"
+      },
+      {
+       "label": "B",
+       "content": "装饰器间配合使用限制多， 不易用。组件中没有明确状态变量的输入与输出， 不利于组件化"
+      },
+      {
+       "label": "C",
+       "content": "在更改对象中属性以及更改数组中元素的场景下存在冗余更新的问题"
+      },
+      {
+       "label": "D",
+       "content": "只能感知对象属性第一层的变化， 无法做到深度观测和深度监听"
+      }
+     ],
+     "correctAnswer": "ABCD",
+     "analysis": ""
+    },
+    {
+     "id": "2107329894332047361",
+     "type": "MULTI",
+     "content": "在ArkTS 中， 以下哪些声明类的方式是正确的。class C1 {value: number=0;}class C2 {value: number;constructor(value:number){his.value= value;}}class C3 {constructor(value:number){his.value= value;}}class C4 {value: number;}",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "C1"
+      },
+      {
+       "label": "B",
+       "content": "C4"
+      },
+      {
+       "label": "C",
+       "content": "C2"
+      },
+      {
+       "label": "D",
+       "content": "C3"
+      }
+     ],
+     "correctAnswer": "AC",
+     "analysis": ""
+    },
+    {
+     "id": "2107329894600482817",
+     "type": "MULTI",
+     "content": "ArkTS函数在编码时，以下哪些做法可以提高编程性能",
+     "score": 4,
+     "options": [
+      {
+       "label": "A",
+       "content": "rkTS函数在编码时，以下哪些做法可以提高编程性能"
+      },
+      {
+       "label": "B",
+       "content": "使用参数传递函数外的变量来替代使用闭包"
+      },
+      {
+       "label": "C",
+       "content": "避免使用可选参数"
+      },
+      {
+       "label": "D",
+       "content": "使用箭头函数"
+      }
+     ],
+     "correctAnswer": "BC",
+     "analysis": ""
+    }
+   ]
+  }
+ ]
+}
